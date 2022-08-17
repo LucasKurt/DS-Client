@@ -1,0 +1,80 @@
+package com.lucasprojects.dsclient.entities.dtos;
+
+import java.time.Instant;
+
+import com.lucasprojects.dsclient.entities.Client;
+
+public class ClientDTO {
+
+	private Long id;
+	private String name;
+	private String cpf;
+	private Double income;
+	private Instant birthDate;
+	private Integer childen;
+	
+	public ClientDTO() {
+	}
+	
+	public ClientDTO(Long id, String name, String cpf, Double income, Instant birthDate, Integer childen) {
+		this.id = id;
+		this.name = name;
+		this.cpf = cpf;
+		this.income = income;
+		this.birthDate = birthDate;
+		this.childen = childen;
+	}
+	
+	public ClientDTO(Client client) {
+		id = client.getId();
+		name = client.getName();
+		cpf = client.getCpf();
+		income = client.getIncome();
+		birthDate = client.getBirthDate();
+		childen = client.getChilden();
+	}
+
+	public Long getId() {
+		return id;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public String getCpf() {
+		return cpf;
+	}
+
+	public void setCpf(String cpf) {
+		this.cpf = cpf;
+	}
+
+	public Double getIncome() {
+		return income;
+	}
+
+	public void setIncome(Double income) {
+		this.income = income;
+	}
+
+	public Instant getBirthDate() {
+		return birthDate;
+	}
+
+	public void setBirthDate(Instant birthDate) {
+		this.birthDate = birthDate;
+	}
+
+	public Integer getChilden() {
+		return childen;
+	}
+
+	public void setChilden(Integer childen) {
+		this.childen = childen;
+	}
+}

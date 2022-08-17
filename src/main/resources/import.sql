@@ -1,0 +1,10 @@
+INSERT INTO client (name, cpf, income, birth_date, childen) VALUES ('Lucas', '36691797043', 1000, NOW(), 0);
+INSERT INTO client (name, cpf, income, birth_date, childen) VALUES ('João', '08118913058', 3355, NOW(), 1);
+INSERT INTO client (name, cpf, income, birth_date, childen) VALUES ('Marcos', '66233408075', 8080, NOW(), 2);
+INSERT INTO client (name, cpf, income, birth_date, childen) VALUES ('Luiz', '39141652002', 1500, NOW(), 3);
+INSERT INTO client (name, cpf, income, birth_date, childen) VALUES ('Gabriel', '86345820008', 1000, NOW(), 0);
+INSERT INTO client (name, cpf, income, birth_date, childen) VALUES ('Ana', '10911569057', 2000, NOW(), 0);
+INSERT INTO client (name, cpf, income, birth_date, childen) VALUES ('Laiz', '23424755001', 2500, NOW(), 1);
+INSERT INTO client (name, cpf, income, birth_date, childen) VALUES ('Luana', '83620739005', 1000, NOW(), 0);
+INSERT INTO client (name, cpf, income, birth_date, childen) VALUES ('Leticia', '56712847087', 1200, NOW(), 2);
+INSERT INTO client (name, cpf, income, birth_date, childen) VALUES ('Laura', '61577023030', 1800, NOW(), 0);
